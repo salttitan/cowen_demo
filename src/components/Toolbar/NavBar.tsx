@@ -26,18 +26,18 @@ const NavBar = () => {
   return (
     <Box sx={{ display: "flex" }}>
       <AppBar position="static">
-        <Toolbar variant="dense" sx={{ justifyContent: "center" }}>
+        <Toolbar variant="dense" sx={{ justifyContent: "center", backgroundColor: "background.toolbar" }}>
           {/* <img src={sfg} height={"80px"} /> */}
-          <span style={{ flexGrow: 1 }} />
+
           <Stack direction="row">
-            <Button onClick={navLibrary} variant="text">
-              Library
-            </Button>
             <Link to="">
               <img src={headerImg} height={"80px"} />
             </Link>
             <Button onClick={navGallery} variant="text">
               Gallery
+            </Button>
+            <Button onClick={navLibrary} variant="text">
+              Library
             </Button>
           </Stack>
           <span style={{ flexGrow: 1 }} />

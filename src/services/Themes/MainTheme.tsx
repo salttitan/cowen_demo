@@ -11,9 +11,6 @@ export const getMainTheme = (mode: any) => ({
           secondary: {
             main: "#f50057",
           },
-          //   textPrimary: {
-          //     main: "#fff",
-          //   },
         }
       : {
           primary: {
@@ -22,9 +19,6 @@ export const getMainTheme = (mode: any) => ({
           secondary: {
             main: "#f50057",
           },
-          //   textPrimary: {
-          //     main: "#fff",
-          //   },
         }),
   },
   components: {
@@ -45,5 +39,8 @@ export const getMainTheme = (mode: any) => ({
         root: "background.default",
       },
     },
+  },
+  typography: {
+    fontFamily: "Droid Sans",
   },
 });
