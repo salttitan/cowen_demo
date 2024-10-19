@@ -17,28 +17,39 @@ const NavBar = () => {
   }, [theme.palette.mode]);
 
   const navLibrary = () => {
-    navigate("library");
+    navigate("world");
   };
 
   const navGallery = () => {
-    navigate("gallery");
+    navigate("armies");
+  };
+
+  const navResources = () => {
+    navigate("resources");
+  };
+
+  const navLearn = () => {
+    navigate("learn");
   };
   return (
     <Box sx={{ display: "flex" }}>
-      <AppBar position="static">
-        <Toolbar variant="dense" sx={{ justifyContent: "center", backgroundColor: "background.toolbar" }}>
+      <AppBar>
+        <Toolbar
+          sx={{
+            justifyContent: "center",
+            backgroundColor: "background.toolbar",
+          }}
+        >
           {/* <img src={sfg} height={"80px"} /> */}
 
           <Stack direction="row">
             <Link to="">
               <img src={headerImg} height={"80px"} />
             </Link>
-            <Button onClick={navGallery} variant="text">
-              Gallery
-            </Button>
-            <Button onClick={navLibrary} variant="text">
-              Library
-            </Button>
+            <Button onClick={navLearn}>Getting Started</Button>
+            <Button onClick={navGallery}>Armies</Button>
+            <Button onClick={navLibrary}>The World</Button>
+            <Button onClick={navResources}>Resources</Button>
           </Stack>
           <span style={{ flexGrow: 1 }} />
           <ToggleDarkButton />

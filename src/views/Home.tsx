@@ -12,29 +12,17 @@ const Home = () => {
       display={"flex"}
       flexDirection={"column"}
       alignItems="center"
+
     >
-      <Box
-        sx={{
-          backgroundImage: `url(${head})`,
-          backgroundRepeat: "no-repeat",
-          width: 1200,
-          maxWidth: 2000,
-          height: 630,
-          display: "flex",
-        }}
-        marginTop={0}
-      >
-        <div style={{ height: "100vh" }}></div>
-      </Box>
       <Stack
         direction="column"
-        spacing={2}
+        spacing={6}
         display={"flex"}
         justifyContent="center"
         alignItems="center"
         // paddingTop={"200px"}
-        zIndex={100}
       >
+        <img src={head} width={875} />
         <Typography variant="h3" color="textPrimary">
           Welcome to the Iron Kingdoms
         </Typography>
