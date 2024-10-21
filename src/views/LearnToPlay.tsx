@@ -1,5 +1,7 @@
 import { Box, Stack, Typography } from "@mui/material";
 import TheBasicsCard from "./LearnToPlay/TheBasicsCard";
+import FieldTrainingCard from "./LearnToPlay/FieldTrainingCard";
+import ArmyPicker from "./LearnToPlay/ArmyPicker";
 
 const LearnToPlay = () => {
   const rightImage = require("../assets/images/Landing_Page_Banner_2000x900_1.webp");
@@ -22,7 +24,7 @@ const LearnToPlay = () => {
       >
         <img src={rightImage} style={{ paddingTop: 5 }} />
         <Typography variant="h3" color="textPrimary">
-          Getting Started
+          Learn to Play
         </Typography>
         <Typography variant="body1">
           Easy to learn but difficult to master, Warmachine offers a wide range
@@ -30,6 +32,8 @@ const LearnToPlay = () => {
           to start your journey.
         </Typography>
         <TheBasicsCard />
+        <FieldTrainingCard />
+        <ArmyPicker />
       </Stack>
     </Box>
   );

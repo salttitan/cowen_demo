@@ -17,19 +17,19 @@ const NavBar = () => {
   }, [theme.palette.mode]);
 
   const navLibrary = () => {
-    navigate("world");
+    navigate("World");
   };
 
   const navGallery = () => {
-    navigate("armies");
+    navigate("Armies");
   };
 
   const navResources = () => {
-    navigate("resources");
+    navigate("Resources");
   };
 
   const navLearn = () => {
-    navigate("learn");
+    navigate("Learn");
   };
   return (
     <Box sx={{ display: "flex" }}>
@@ -46,7 +46,7 @@ const NavBar = () => {
             <Link to="">
               <img src={headerImg} height={"80px"} />
             </Link>
-            <Button onClick={navLearn}>Getting Started</Button>
+            <Button onClick={navLearn}>Learn to Play</Button>
             <Button onClick={navGallery}>Armies</Button>
             <Button onClick={navLibrary}>The World</Button>
             <Button onClick={navResources}>Resources</Button>

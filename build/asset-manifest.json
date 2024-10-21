@@ -1,24 +1,30 @@
 {
   "files": {
     "main.css": "/static/css/main.f855e6bc.css",
-    "main.js": "/static/js/main.d887a36a.js",
+    "main.js": "/static/js/main.9608a663.js",
     "static/js/453.092c75a4.chunk.js": "/static/js/453.092c75a4.chunk.js",
-    "static/media/IKRPG_MKIII_MAP_4_21.png": "/static/media/IKRPG_MKIII_MAP_4_21.5477afb50dc5b7f5ff69.png",
+    "static/media/IKRPG_MKIII_MAP_4_21.png": "/static/media/IKRPG_MKIII_MAP_4_21.ed41b5288d76d1759a58.png",
     "static/media/WM-Blog-Inline-1200x900-DeuceWarjack_1.webp": "/static/media/WM-Blog-Inline-1200x900-DeuceWarjack_1.e834ae8f8d77c377cdec.webp",
     "static/media/Landing_Page_Banner_2000x900_1.webp": "/static/media/Landing_Page_Banner_2000x900_1.39894931b44d24870c5d.webp",
     "static/media/ansonflipped.jpeg": "/static/media/ansonflipped.9aa390104240b3dfb72c.jpeg",
     "static/media/Warmachine-Cygnar-ProductShot-2000x2000-Hux.webp": "/static/media/Warmachine-Cygnar-ProductShot-2000x2000-Hux.6107ecf2c3c83249e7f1.webp",
     "static/media/WM-July17-Blog-Inline-1200x630-Logo.webp": "/static/media/WM-July17-Blog-Inline-1200x630-Logo.f3c7b4d29467902aed3b.webp",
+    "static/media/faction-orgoth-color.png": "/static/media/faction-orgoth-color.99381fa8edbff2cc37fc.png",
     "static/media/WM-Wednesday-App-1200x1000-newlogo_1_ca8283c4-0a60-434e-99f5-1960a0ac12cb.webp": "/static/media/WM-Wednesday-App-1200x1000-newlogo_1_ca8283c4-0a60-434e-99f5-1960a0ac12cb.b58c5673e092d5a86729.webp",
+    "static/media/faction-cygnar-storm-legion-color.png": "/static/media/faction-cygnar-storm-legion-color.ae97faaed0010767bae0.png",
+    "static/media/faction-khador-color.png": "/static/media/faction-khador-color.0908bb0f6ac623484f22.png",
+    "static/media/faction-dusk-house-kallyss-color.png": "/static/media/faction-dusk-house-kallyss-color.6eaa1a1dd25d88b419b5.png",
+    "static/media/faction-cygnar-color.png": "/static/media/faction-cygnar-color.7d8ec64fb83aa38cd12f.png",
+    "static/media/warmachine-app-logo.webp": "/static/media/warmachine-app-logo.05c3d16d34945e8614a5.webp",
     "static/media/sfg-logo-small-linear-palebone.avif": "/static/media/sfg-logo-small-linear-palebone.a3d729226d4263fba67f.avif",
     "static/media/sfg-logo-small-linear.avif": "/static/media/sfg-logo-small-linear.c172343a387d5338b86b.avif",
     "index.html": "/index.html",
     "main.f855e6bc.css.map": "/static/css/main.f855e6bc.css.map",
-    "main.d887a36a.js.map": "/static/js/main.d887a36a.js.map",
+    "main.9608a663.js.map": "/static/js/main.9608a663.js.map",
     "453.092c75a4.chunk.js.map": "/static/js/453.092c75a4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.d887a36a.js"
+    "static/js/main.9608a663.js"
   ]
 }

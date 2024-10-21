@@ -1,17 +1,18 @@
-import { Box, Card, CardContent, CardMedia, Typography } from "@mui/material";
+import { Card, CardContent, CardMedia, Typography } from "@mui/material";
 
 const TheBasicsCard = () => {
-  const image = require("../../assets/images/Warmachine-Cygnar-ProductShot-2000x2000-Hux.webp");
+  const image = require("../../assets/images/WM-Blog-Inline-1200x900-DeuceWarjack_1.webp");
   return (
-    <Card sx={{ width: "100%", display: "flex" }}>
+    <Card sx={{ width: "100%", display: "flex", height: 300 }}>
       <CardMedia image={image} sx={{ width: "25%" }} />
-      {/* <Box sx={{ display: "flex", flexDirection: "column" }}> */}
-        <CardContent>
-          <Typography variant="h6" color="textPrimary">
-            The Basics
-          </Typography>
-        </CardContent>
-      {/* </Box> */}
+      <CardContent>
+        <Typography variant="h6" color="textPrimary">
+          The Basics
+        </Typography>
+        <Typography variant="body1" color="textPrimary">
+          Learn the basics of list building and model types in this video
+        </Typography>
+      </CardContent>
     </Card>
   );
 };

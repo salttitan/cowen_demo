@@ -11,14 +11,20 @@ export const getMainTheme = (mode: any) => ({
           secondary: {
             main: "#f50057",
           },
+          warning: {
+            main: "#fffff"
+          }
         }
       : {
           primary: {
-            main: "#3f51b5",
+            main: "#c2c2c2",
           },
           secondary: {
             main: "#f50057",
           },
+          warning: {
+            main: "#00000"
+          }
         }),
   },
   components: {

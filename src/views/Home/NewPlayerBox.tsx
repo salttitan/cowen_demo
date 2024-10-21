@@ -1,4 +1,4 @@
-import { Button, CardMedia, Grid2, Typography } from "@mui/material";
+import { Grid2, Typography } from "@mui/material";
 import QuickLaunchCard from "../../components/Cards/QuickLaunchCard";
 
 const NewPlayerBox = () => {
@@ -13,39 +13,42 @@ const NewPlayerBox = () => {
       <Grid2 size={{ xs: 12, md: 6 }}>
         <Typography variant="h6">What is Warmachine?</Typography>
         <Typography variant="body2">
-          Warmachine is a fast-paced 30mm tabletop wargame where powerful battle
-          mages lead forc
+          Warmachine is a fast-paced 30mm tabletop wargame.
         </Typography>
       </Grid2>
       <Grid2 size={{ xs: 12, md: 6 }}>
-        <img src={rightImage} width="800px" />
+        <img
+          src={rightImage}
+          width="800px"
+          alt="Warmachine is a fast-paced 30mm tabletop wargame."
+        />
       </Grid2>
       <Grid2 size={{ xs: 12, md: 6, lg: 3 }}>
         <QuickLaunchCard
-          title={"Getting Started"}
+          title={"Learn to Play"}
           image={learnImage}
-          target={"learn"}
+          target={"Learn"}
         ></QuickLaunchCard>
       </Grid2>
       <Grid2 size={{ xs: 12, md: 6, lg: 3 }}>
         <QuickLaunchCard
           title={"Armies of Warmachine"}
           image={armiesImage}
-          target={"armies"}
+          target={"Armies"}
         />
       </Grid2>
       <Grid2 size={{ xs: 12, md: 6, lg: 3 }}>
         <QuickLaunchCard
           title={"The World of Immoren"}
           image={worldImage}
-          target={"world"}
+          target={"World"}
         />
       </Grid2>
       <Grid2 size={{ xs: 12, md: 6, lg: 3 }}>
         <QuickLaunchCard
           title={"Resources"}
           image={resourcesImage}
-          target={"resources"}
+          target={"Resources"}
         />
       </Grid2>
     </Grid2>
