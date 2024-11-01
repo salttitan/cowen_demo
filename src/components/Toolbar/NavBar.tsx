@@ -46,10 +46,10 @@ const NavBar = () => {
             <Link to="">
               <img src={headerImg} height={"80px"} />
             </Link>
-            <Button onClick={navLearn}>Learn to Play</Button>
-            <Button onClick={navGallery}>Armies</Button>
-            <Button onClick={navLibrary}>The World</Button>
-            <Button onClick={navResources}>Resources</Button>
+            <Button onClick={navLearn} sx={{ display: { xs: "none", md: "flex" } }}>Learn to Play</Button>
+            <Button onClick={navGallery} sx={{ display: { xs: "none", md: "flex" } }}>Armies</Button>
+            <Button onClick={navLibrary} sx={{ display: { xs: "none", md: "flex" } }}>The World</Button>
+            <Button onClick={navResources} sx={{ display: { xs: "none", md: "flex" } }}>Resources</Button>
           </Stack>
           <span style={{ flexGrow: 1 }} />
           <ToggleDarkButton />

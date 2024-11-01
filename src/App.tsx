@@ -14,9 +14,9 @@ function App() {
       <Toolbar sx={{ height: 84 }} />
       <BreadcrumbBar />
       <Box
-        paddingLeft={15}
-        paddingRight={15}
-        paddingBottom={10}
+        paddingLeft={{xs:1, md:15}}
+        paddingRight={{xs:1  , md:15}}
+        paddingBottom={{xs:1, md:10}}
         bgcolor={"background.default"}
       >
         <Outlet />

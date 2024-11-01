@@ -8,6 +8,7 @@ import LearnToPlay from "../views/LearnToPlay";
 import { loader } from "../components/Providers/AppRouteLoader";
 import FactionPage from "../views/Gallery/FactionPage";
 import Resources from "../views/Resources";
+import { TutorialDataHandler } from "../views/LearnToPlay/TutorialPage/TutorialDataHandler";
 
 const router = createBrowserRouter([
   {
@@ -34,6 +35,16 @@ const router = createBrowserRouter([
       {
         path: "Learn",
         element: <LearnToPlay />,
+      },
+      {
+        path: "Learn/Training/",
+        element: <TutorialDataHandler />,
+        loader: loader,
+      },
+      {
+        path: "Learn/Training/:army",
+        element: <TutorialDataHandler />,
+        loader: loader,
       },
       {
         path: "Resources",

@@ -32,8 +32,7 @@ const BreadcrumbBar = () => {
     <Box>
       <Breadcrumbs
         aria-label="breadcrumbs"
-        sx={{ bgcolor: "background.default",paddingLeft:5 }}
-      
+        sx={{ bgcolor: "background.default", paddingLeft: { xs: 1, md: 5 } }}
       >
         {pathnames.map((v: any, i: number) => (
           <BreadcrumbItem index={i} pathnames={pathnames} value={v} key={i} />
