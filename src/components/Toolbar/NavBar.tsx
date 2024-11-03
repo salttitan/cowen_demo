@@ -2,6 +2,7 @@ import { AppBar, Box, Button, Stack, Toolbar, useTheme } from "@mui/material";
 import ToggleDarkButton from "../Buttons/ToggleDarkButton";
 import { Link, useNavigate } from "react-router-dom";
 import { useMemo } from "react";
+import MobileNavMenu from "./MobileNavMenu";
 
 const NavBar = () => {
   const theme = useTheme();
@@ -41,15 +42,36 @@ const NavBar = () => {
           }}
         >
           {/* <img src={sfg} height={"80px"} /> */}
+          <MobileNavMenu />
 
           <Stack direction="row">
             <Link to="">
               <img src={headerImg} height={"80px"} />
             </Link>
-            <Button onClick={navLearn} sx={{ display: { xs: "none", md: "flex" } }}>Learn to Play</Button>
-            <Button onClick={navGallery} sx={{ display: { xs: "none", md: "flex" } }}>Armies</Button>
-            <Button onClick={navLibrary} sx={{ display: { xs: "none", md: "flex" } }}>The World</Button>
-            <Button onClick={navResources} sx={{ display: { xs: "none", md: "flex" } }}>Resources</Button>
+            <Button
+              onClick={navLearn}
+              sx={{ display: { xs: "none", md: "flex" } }}
+            >
+              Learn to Play
+            </Button>
+            <Button
+              onClick={navGallery}
+              sx={{ display: { xs: "none", md: "flex" } }}
+            >
+              Armies
+            </Button>
+            <Button
+              onClick={navLibrary}
+              sx={{ display: { xs: "none", md: "flex" } }}
+            >
+              The World
+            </Button>
+            <Button
+              onClick={navResources}
+              sx={{ display: { xs: "none", md: "flex" } }}
+            >
+              Resources
+            </Button>
           </Stack>
           <span style={{ flexGrow: 1 }} />
           <ToggleDarkButton />

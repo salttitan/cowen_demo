@@ -12,7 +12,6 @@ const Home = () => {
       display={"flex"}
       flexDirection={"column"}
       alignItems="center"
-
     >
       <Stack
         direction="column"
@@ -22,7 +21,7 @@ const Home = () => {
         alignItems="center"
         // paddingTop={"200px"}
       >
-        <img src={head} width={875} />
+        <img src={head} style={{ width: "100%", minWidth: "330px" }} />
         <Typography variant="h3" color="textPrimary">
           Welcome to the Iron Kingdoms
         </Typography>

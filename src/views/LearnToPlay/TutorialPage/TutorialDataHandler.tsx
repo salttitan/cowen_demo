@@ -31,7 +31,6 @@ export const TutorialDataHandler = () => {
   };
 
   useMemo(() => {
-    console.log(l);
     if (l.army) {
       updateBox(l.army);
     }

@@ -1,4 +1,4 @@
-import { useContext, useMemo } from "react";
+import { useContext } from "react";
 import { StarterContext } from "../TutorialDataHandler";
 import { Stack, Typography } from "@mui/material";
 
@@ -8,17 +8,9 @@ const TableSetup = () => {
 
   const terrainImage = require("../../../../assets/images/tutorial/setup/terrain.JPG");
   const targetsImage = require("../../../../assets/images/tutorial/setup/targets.JPG");
-
-  const deployImage = useMemo(() => {
-    if (box !== null) {
-      switch (box.name) {
-        case "Necrofactorium":
-          return require("../../../../assets/images/tutorial/setup/necrofactorium.JPG");
-        default:
-          return require("../../../../assets/images/tutorial/setup/targets.JPG");
-      }
-    }
-  }, [box]);
+  const deployImage = require("../../../../assets/images/tutorial/setup/" +
+    box?.name +
+    ".JPG");
 
   return (
     <Stack direction="column" spacing={2}>
@@ -36,10 +28,6 @@ const TableSetup = () => {
         Next, deploy your force as shown below:
       </Typography>
       <img src={deployImage} />
-      <Typography variant="body1">
-        Finally, place {box?.models.leader.arc} {box?.resource} tokens next to{" "}
-        {box?.models.leader.name}.
-      </Typography>
     </Stack>
   );
 };

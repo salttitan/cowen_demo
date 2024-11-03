@@ -38,10 +38,10 @@ const GetToKnow = () => {
       <ModelFrame data={box?.models.leader} />
       <ModelFrame data={box?.models.cohort} />
       {solos.map((s: any, i: number) => (
-        <ModelFrame data={s} />
+        <ModelFrame data={s} key={i} />
       ))}
       {units.map((s: any, i: number) => (
-        <ModelFrame data={s} />
+        <ModelFrame data={s} key={i} />
       ))}
       <Typography variant="h6"></Typography>
     </Stack>

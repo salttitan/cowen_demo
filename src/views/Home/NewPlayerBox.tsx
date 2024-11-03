@@ -16,7 +16,7 @@ const NewPlayerBox = () => {
           Warmachine is a fast-paced 30mm tabletop wargame.
         </Typography>
       </Grid2>
-      <Grid2 size={{ xs: 12, md: 6 }}>
+      <Grid2 size={{ xs: 12, lg: 6 }}>
         <img
           src={rightImage}
           width="800px"

@@ -6,11 +6,9 @@ const RoundOneLeaderMove = () => {
   const { box } = useContext(StarterContext);
   const leader = box?.models.leader;
 
-  // const image = require("../../../../assets/images/tutorial/movement/" +
-  //   leader?.name +
-  //   "-advance.JPG");
-
-  const image = require("../../../../assets/images/tutorial/movement/Wraithbinder Nekane-advance.JPG");
+  const image = require("../../../../assets/images/tutorial/movement/" +
+    leader?.name +
+    "-advance.JPG");
 
   return (
     <Stack direction={"column"} spacing={2}>
